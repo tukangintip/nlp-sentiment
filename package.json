@@ -1,0 +1,25 @@
+{
+  "name": "google-nlp-sentiment-analyzer",
+  "version": "1.0.0",
+  "description": "A JavaScript function to analyze text sentiment using Google's Natural Language Processing API",
+  "main": "src/google-nlp-sentiment.js",
+  "scripts": {
+    "test": "node test/test-nlp-function.js",
+    "start": "node src/google-nlp-sentiment.js"
+  },
+  "keywords": [
+    "google-nlp",
+    "sentiment-analysis",
+    "natural-language-processing",
+    "text-analysis"
+  ],
+  "author": "NLP Sentiment Analysis Team",
+  "license": "MIT",
+  "engines": {
+    "node": ">=12.0.0"
+  },
+  "devDependencies": {},
+  "dependencies": {
+    "@google-cloud/language": "^5.0.0"
+  }
+}
